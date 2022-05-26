@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;700;900&display=swap");
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #A72D35;
+}
+
+#logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  margin: 0.5rem;
+  padding: 20px;
+}
+
+@media all and (max-width: 768px) {
+  .index__mobile {
+    width: 100%;
+  }
+}
+
+.list li {
+  display: inline;
+  margin: 4rem;
+  font-weight: 700;
+  height: 300px;
+}
+
+.item {
+  color: #EBEBEB;
+  font-weight: 700;
+  font-size: medium;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+}
+
+.item:hover {
+  color: black;
+}
+
+.index {
+  font-weight: 500;
+  font-size: medium;
+  text-align: left;
+  color: #BFBDB4;
+  margin: 3rem;
+  display: inline-block;
+}
+
+.index__foto {
+  display: inline-block;
+  width: 40%;
+  margin: 2rem;
+}
+
+.index__foto:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.index__titulo {
+  font-weight: 900;
+  font-size: xx-large;
+  text-align: center;
+  color: #ECE1D1;
+  margin: 2rem;
+  display: block;
+}
+
+.index__titulo::after {
+  content: '!!';
+}
+
+.datos {
+  height: 110px;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.estadistica {
+  background: #BFBDB4;
+  border: 3px solid #461D22;
+  color: #461D22;
+  padding: 18px;
+  margin: 60px;
+  display: inline;
+}
+
+.footer__titulo {
+  font-weight: 500;
+  font-size: large;
+  background-color: #BA8871;
+  color: #EBEBEB;
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer__info {
+  font-weight: 300;
+  font-size: medium;
+  text-align: center;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.footer__icon {
+  max-width: 20px;
+}
+
+.footer__link {
+  color: #EBEBEB;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  color: black;
+}
+/*# sourceMappingURL=estilos.css.map */
